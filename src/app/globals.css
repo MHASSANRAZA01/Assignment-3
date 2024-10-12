@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+.stylesheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: #f73434;
+    color: white;
+  }
+
+.styleslogo{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    
+  }
+  
+  .stylesnavList{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+.stylesnavList{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .home:hover {
+    color: #0f0c0c;
+  }
+  .about:hover {
+    color: #0f0c0c;
+  }
+
+  .contact:hover {
+    color: #0f0c0c;
+  }
+
+  .styleslogo:hover {
+    color: #0f0c0c;
+  }
+
+  .portfolio:hover {
+    color: #0f0c0c;
+  }
+.man{
+    text-align: auto;
+    font-size: 100px;
+    font-weight: 0px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: 'arial'
+    
+    
+ 
+}
+
+.mane{
+    text-align: auto;
+    font-size: 90px;
+    font-weight: 0px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'arial';
+    color: #f73434;
+    font-style: normal;
+    
+     
+    
+}
+
+/* portfolio */
+.homeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .childContainer {
+    width: fit-content;
+    height: 200px;
+    margin: 50px;
+    font-size: 60px;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .redColor {
+    color:  #f73434;
+  }
+  
+  .myphoto{
+     display: flex;
+     bottom: 10px;
+     margin-left: auto;
+     margin-right: auto;
+    
+   
+  
+  }
+
+  /* About page  */
+.aboutus{
+    text-align: center;
+    font-weight: 500;
+    font-size: 100px;
+    margin-top: 150px;
+    font-style: normal;
+
+}
+
+.cont{
+    text-align: center;
+    font-weight: 500;
+    font-size: 100px;
+    margin-top: 150px;
+    font-style: normal;
+}
